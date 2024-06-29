@@ -1,0 +1,18 @@
+set_pin_assignment { clk } { LOCATION = R7; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { RSTn } { LOCATION = A9; IOSTANDARD = LVCMOS33; }
+
+set_pin_assignment { RX_Pin_In } { LOCATION = F12; IOSTANDARD = LVCMOS33; }
+
+
+set_pin_assignment { TX_Pin_Out } { LOCATION = D12; IOSTANDARD = LVCMOS33; }
+
+set_pin_assignment { LED_Out[0] } { LOCATION = B14; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { LED_Out[1] } { LOCATION = B15; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { LED_Out[2] } { LOCATION = B16; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { LED_Out[3] } { LOCATION = C15; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { LED_Out[4] } { LOCATION = C16; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { LED_Out[5] } { LOCATION = E13; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { LED_Out[6] } { LOCATION = E16; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { LED_Out[7] } { LOCATION = F16; IOSTANDARD = LVCMOS33; }
+
+

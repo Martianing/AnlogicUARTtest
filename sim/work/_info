@@ -1,0 +1,251 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Desktop/ICverification/sv_study/alu_sv7_1/sim
+T_opt
+!s110 1719656488
+Voe3GRUE=MLSf;hi0z6@_`1
+04 11 4 work uart_top_tb fast 0
+=1-644ed705b7ea-667fe027-24f-6da8
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vdetect_module
+Z1 !s110 1719656479
+!i10b 1
+!s100 l0]Q3i`;BoY543hgTPZ@h2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IN;ET]YADBTn:Y=Rk3O]k_2
+Z3 dD:/Desktop/integrated circuit competition/20240629UARTtest/sim
+w1624527796
+8D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/detect_module.v
+FD:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/detect_module.v
+!i122 160
+L0 1 31
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1719656479.000000
+!s107 D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/detect_module.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/detect_module.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vLED_display_module
+R1
+!i10b 1
+!s100 @obRBfGYVf>6P<V[`TJjL2
+R2
+I`OdOhO76ZU8CH1=3m?=7P2
+R3
+w1624527944
+8D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/LED_display_module.v
+FD:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/LED_display_module.v
+!i122 161
+L0 1 24
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/LED_display_module.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/LED_display_module.v|
+!i113 0
+R7
+R0
+n@l@e@d_display_module
+vrx_bps_module
+R1
+!i10b 1
+!s100 lRdon5ac<1M6^<i7:mnE_3
+R2
+IAb=YLSE4RbFF2j9R;08cB0
+R3
+w1626343536
+8D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_bps_module.v
+FD:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_bps_module.v
+!i122 162
+Z8 L0 1 32
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_bps_module.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_bps_module.v|
+!i113 0
+R7
+R0
+vrx_control_module
+R1
+!i10b 1
+!s100 g<2hZTXB6hf26HgB5Q>3b0
+R2
+I`fdh3SWc:]<Ta9Vdj6I6D3
+R3
+w1626335972
+8D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_control_module.v
+FD:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_control_module.v
+!i122 163
+L0 1 87
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_control_module.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_control_module.v|
+!i113 0
+R7
+R0
+vrx_top
+R1
+!i10b 1
+!s100 ]`KJW<@Al=A0[0FZd0CbS2
+R2
+I^]22CnzF_bWYk?NKJb1gb1
+R3
+w1719649177
+8D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_top.v
+FD:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_top.v
+!i122 164
+L0 1 89
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_top.v|
+!i113 0
+R7
+R0
+vtx_bps_module
+R1
+!i10b 1
+!s100 Y;ae_>E<TJgEMIem5`SkG3
+R2
+I82_Nb7:G2dWLjTl?WJmdA3
+R3
+w1719643681
+8D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_bps_module.v
+FD:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_bps_module.v
+!i122 165
+R8
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_bps_module.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_bps_module.v|
+!i113 0
+R7
+R0
+vtx_control_module
+R1
+!i10b 1
+!s100 E5i=f_nJeLW:2j_nF468z0
+R2
+I8CPPn_m1>n`WO5jIJE9:l1
+R3
+w1719643663
+8D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_control_module.v
+FD:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_control_module.v
+!i122 166
+L0 1 86
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_control_module.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_control_module.v|
+!i113 0
+R7
+R0
+vtx_top
+R1
+!i10b 1
+!s100 1U^mDl`8<l^jj8C0bSV1Q2
+R2
+IH]4?MfPn<E4NURBTZ;;6^2
+R3
+w1719656366
+8D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_top.v
+FD:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_top.v
+!i122 167
+L0 1 100
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_top.v|
+!i113 0
+R7
+R0
+vuart_top
+R1
+!i10b 1
+!s100 L:2]i]X@MkSL0XSLnHB=<0
+R2
+I[Ic`_3l2fIMWRjd6ojRJS2
+R3
+w1719656471
+8D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/uart_top.v
+FD:/Desktop/integrated circuit competition/20240629UARTtest/rtl/uart_top.v
+!i122 159
+L0 1 50
+R4
+R5
+r1
+!s85 0
+31
+Z9 !s108 1719656478.000000
+!s107 D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/uart_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/uart_top.v|
+!i113 0
+R7
+R0
+vuart_top_tb
+!s110 1719656478
+!i10b 1
+!s100 C<:mSU4lej2LPh57N`7RG0
+R2
+I:5UBNzLVLD@JSbW1TTKJB2
+R3
+w1719656410
+8D:\Desktop\integrated circuit competition\20240629UARTtest\rtl\tb_uart_top.v
+FD:\Desktop\integrated circuit competition\20240629UARTtest\rtl\tb_uart_top.v
+!i122 158
+L0 3 76
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:\Desktop\integrated circuit competition\20240629UARTtest\rtl\tb_uart_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Desktop\integrated circuit competition\20240629UARTtest\rtl\tb_uart_top.v|
+!i113 0
+R7
+R0

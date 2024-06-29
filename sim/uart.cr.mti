@@ -1,0 +1,64 @@
+{D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_control_module.v} {1 {vlog -work work -vopt -stats=none {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_control_module.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tx_control_module
+
+Top level modules:
+	tx_control_module
+
+} {} {}} {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_bps_module.v} {1 {vlog -work work -vopt -stats=none {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_bps_module.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tx_bps_module
+
+Top level modules:
+	tx_bps_module
+
+} {} {}} {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_control_module.v} {1 {vlog -work work -vopt -stats=none {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_control_module.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module rx_control_module
+
+Top level modules:
+	rx_control_module
+
+} {} {}} {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_bps_module.v} {1 {vlog -work work -vopt -stats=none {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_bps_module.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module rx_bps_module
+
+Top level modules:
+	rx_bps_module
+
+} {} {}} {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/LED_display_module.v} {1 {vlog -work work -vopt -stats=none {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/LED_display_module.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module LED_display_module
+
+Top level modules:
+	LED_display_module
+
+} {} {}} {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_top.v} {1 {vlog -work work -vopt -stats=none {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tx_temp/tx_top.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tx_top
+
+Top level modules:
+	tx_top
+
+} {} {}} {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_top.v} {1 {vlog -work work -vopt -stats=none {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/rx_top.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module rx_top
+
+Top level modules:
+	rx_top
+
+} {} {}} {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/tb_uart_top.v} {1 {vlog -work work -vopt -stats=none {D:\Desktop\integrated circuit competition\20240629UARTtest\rtl\tb_uart_top.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module uart_top_tb
+
+Top level modules:
+	uart_top_tb
+
+} {} {}} {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/detect_module.v} {1 {vlog -work work -vopt -stats=none {D:/Desktop/integrated circuit competition/20240629UARTtest/rtl/rx_temp/detect_module.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module detect_module
+
+Top level modules:
+	detect_module
+
+} {} {}}

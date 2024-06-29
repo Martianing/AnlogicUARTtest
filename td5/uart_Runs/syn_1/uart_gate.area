@@ -1,0 +1,45 @@
+standard
+***Report Model: uart_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        12
+  #input                    3
+  #output                   9
+  #inout                    0
+
+LUT Statistics
+#Total_luts               172
+  #lut4                    80
+  #lut5                    20
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b              72
+
+Utilization Statistics
+#lut                      172   out of  19600    0.88%
+#reg                       92   out of  19600    0.47%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       12   out of    188    6.38%
+  #ireg                     1
+  #oreg                     9
+  #treg                     0
+#pll                        0   out of      4    0.00%
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------+
+|Instance   |Module            |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------+
+|top        |uart_top          |100     |72      |102     |0       |0       |
+|  u_rx_top |rx_top            |51      |25      |39      |0       |0       |
+|    U1     |detect_module     |1       |0       |2       |0       |0       |
+|    U2     |rx_bps_module     |18      |14      |13      |0       |0       |
+|    U3     |rx_control_module |24      |0       |13      |0       |0       |
+|  u_tx_top |tx_top            |49      |47      |53      |0       |0       |
+|    U1     |tx_bps_module     |9       |14      |13      |0       |0       |
+|    U2     |tx_control_module |19      |0       |6       |0       |0       |
++---------------------------------------------------------------------------+

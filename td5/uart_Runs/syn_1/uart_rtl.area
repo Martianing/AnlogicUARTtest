@@ -1,0 +1,42 @@
+standard
+***Report Model: uart_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        12
+  #input                    3
+  #output                   9
+  #inout                    0
+
+Gate Statistics
+#Basic gates              156
+  #and                     19
+  #nand                     0
+  #or                       0
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                      6
+  #bufif1                   0
+  #MX21                    30
+  #FADD                     0
+  #DFF                    101
+  #LATCH                    0
+#MACRO_ADD                  8
+#MACRO_EQ                   6
+#MACRO_MUX                 33
+
+Report Hierarchy Area:
++-------------------------------------------------------+
+|Instance   |Module             |gates  |seq    |macros |
++-------------------------------------------------------+
+|top        |uart_top           |55     |101    |14     |
+|  u_rx_top |rx_top             |37     |48     |7      |
+|    U1     |detect_module      |2      |2      |0      |
+|    U2     |rx_bps_module      |15     |13     |3      |
+|    U3     |rx_control_module  |18     |14     |2      |
+|    U4     |LED_display_module |0      |8      |0      |
+|  u_tx_top |tx_top             |18     |53     |7      |
+|    U1     |tx_bps_module      |0      |13     |3      |
+|    U2     |tx_control_module  |5      |6      |2      |
++-------------------------------------------------------+

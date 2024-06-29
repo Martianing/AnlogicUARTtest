@@ -1,0 +1,87 @@
+standard
+***Report Model: uart_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        12
+  #input                    3
+  #output                   9
+  #inout                    0
+
+Utilization Statistics
+#lut                      429   out of  19600    2.19%
+#reg                      256   out of  19600    1.31%
+#le                       493
+  #lut only               237   out of    493   48.07%
+  #reg only                64   out of    493   12.98%
+  #lut&reg                192   out of    493   38.95%
+#dsp                        0   out of     29    0.00%
+#bram                       1   out of     64    1.56%
+  #bram9k                   1
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       12   out of    188    6.38%
+  #ireg                     1
+  #oreg                     9
+  #treg                     0
+#pll                        0   out of      4    0.00%
+#gclk                       3   out of     16   18.75%
+
+Clock Resource Statistics
+Index     ClockNet             Type               DriverType         Driver                            Fanout
+#1        clk_dup_1            GCLK               io                 clk_syn_2.di                      56
+#2        config_inst_syn_9    GCLK               config             config_inst.jtck                  48
+#3        u_tx_top/CLK_500K    GCLK               mslice             u_rx_top/CLK_500K_reg_syn_5.q0    32
+#4        u_rx_top/CLK_500K    GCLK               mslice             u_rx_top/CLK_500K_reg_syn_5.q1    30
+
+
+Detailed IO Report
+
+     Name       Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+     RSTn         INPUT         A9        LVCMOS33          N/A          PULLUP      NONE    
+  RX_Pin_In       INPUT        F12        LVCMOS33          N/A          PULLUP      IREG    
+     clk          INPUT         R7        LVCMOS33          N/A          PULLUP      NONE    
+  LED_Out[7]     OUTPUT        F16        LVCMOS33           8            NONE       OREG    
+  LED_Out[6]     OUTPUT        E16        LVCMOS33           8            NONE       OREG    
+  LED_Out[5]     OUTPUT        E13        LVCMOS33           8            NONE       OREG    
+  LED_Out[4]     OUTPUT        C16        LVCMOS33           8            NONE       OREG    
+  LED_Out[3]     OUTPUT        C15        LVCMOS33           8            NONE       OREG    
+  LED_Out[2]     OUTPUT        B16        LVCMOS33           8            NONE       OREG    
+  LED_Out[1]     OUTPUT        B15        LVCMOS33           8            NONE       OREG    
+  LED_Out[0]     OUTPUT        B14        LVCMOS33           8            NONE       OREG    
+  TX_Pin_Out     OUTPUT        D12        LVCMOS33           8            NONE       OREG    
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------+
+|Instance                            |Module            |le     |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------------------------+
+|top                                 |uart_top          |493    |334     |95      |266     |1       |0       |
+|  u_rx_top                          |rx_top            |72     |62      |10      |38      |0       |0       |
+|    U1                              |detect_module     |2      |2       |0       |2       |0       |0       |
+|    U2                              |rx_bps_module     |26     |22      |4       |13      |0       |0       |
+|    U3                              |rx_control_module |23     |23      |0       |11      |0       |0       |
+|  u_tx_top                          |tx_top            |95     |72      |16      |54      |0       |0       |
+|    U1                              |tx_bps_module     |23     |16      |7       |13      |0       |0       |
+|    U2                              |tx_control_module |22     |22      |0       |8       |0       |0       |
+|  cw_top                            |CW_TOP_WRAPPER    |326    |200     |69      |164     |0       |0       |
+|    wrapper_cwc_top                 |cwc_top           |326    |200     |69      |164     |0       |0       |
+|      cfg_int_inst                  |cwc_cfg_int       |85     |38      |0       |85      |0       |0       |
+|        reg_inst                    |register          |82     |35      |0       |82      |0       |0       |
+|        tap_inst                    |tap               |3      |3       |0       |3       |0       |0       |
+|      trigger_inst                  |trigger           |241    |162     |69      |79      |0       |0       |
+|        bus_inst                    |bus_top           |4      |2       |0       |4       |0       |0       |
+|          BUS_DETECTOR[0]$bus_nodes |bus_det           |4      |2       |0       |4       |0       |0       |
+|        emb_ctrl_inst               |emb_ctrl          |156    |119     |37      |51      |0       |0       |
++------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       323   
+    #2         2       204   
+    #3         3        44   
+    #4         4        7    
+    #5        5-10      43   
+    #6       11-50      25   
+    #7       51-100     1    
+  Average     2.61           
